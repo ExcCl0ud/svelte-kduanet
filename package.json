@@ -4,7 +4,7 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "sirv public"
+    "start": "sirv public -p 5000"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^14.0.0",
@@ -18,6 +18,7 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
+    "amazon-cognito-identity-js": "^4.5.2",
     "sirv-cli": "^1.0.0",
     "svelte-image": "^0.2.7"
   }
